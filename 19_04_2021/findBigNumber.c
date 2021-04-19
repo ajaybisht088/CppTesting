@@ -21,5 +21,5 @@ int main()
 Target ==> Enter a number from the user and 
 show the biggest digit from the number on the console screen
 eg => Enter a Number : 345
-output => 12
+output => 5
 */
