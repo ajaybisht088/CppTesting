@@ -1,11 +1,11 @@
 #include<stdio.h>
 
-static void example() {
-    printf("Hello static");
+static void staticExample() {
+    printf("\nHello static");
 }
 
 void simpleExample() {
-    printf("Hello SimpleExample");
+    printf("\nHello Simple");
 }
 
 // void main() {

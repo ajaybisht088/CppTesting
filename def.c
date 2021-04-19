@@ -1,9 +1,9 @@
-#include<stdio.h>
+// #include<stdio.h>
 #include"abc.c"
 
 void main () {
     printf("def main\n");
     simpleExample();
-    example();
+    staticExample();
     return;
 }
