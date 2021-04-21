@@ -4,9 +4,9 @@ int main(){
     int num = 0, firstDigit = 0, lastDigit = 0, result = 0;
     printf("Enter Value = ");
     scanf("%d",&num);
-    firstDigit = num%10;
+    lastDigit = num%10;
     while(num!=0){
-        lastDigit = num%10;
+        firstDigit = num%10;
         num = num/10;
     }
     result = firstDigit+lastDigit;
