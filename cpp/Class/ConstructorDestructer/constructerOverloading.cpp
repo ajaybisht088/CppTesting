@@ -1,0 +1,40 @@
+#include<iostream>
+using namespace std;
+class Person
+{
+private:
+    string name;
+    int age;
+public:
+    // Constructer Overloading Below
+    Person();
+    Person(string);
+    Person(string , int);
+    void showDetails();
+};
+Person::Person() {
+    this->name = "None";
+    this->age = 18;
+}
+Person::Person(string name) { 
+    this->name = name;
+}
+Person::Person(string name, int age){
+    this->name = name;
+    this->age = age;
+}
+
+void Person::showDetails(){
+    cout<<"Name : "<<this->name<<endl;
+    cout<<"Age : "<<this->age<<endl;
+}
+
+int main(){
+    Person p1;
+    p1.showDetails();
+    Person p2("Amar");
+    p2.showDetails();
+    Person p3("Akbar", 25);
+    p3.showDetails();
+    return 0;
+}

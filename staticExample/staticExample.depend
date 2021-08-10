@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1622018066 source:d:\codeblocks\staticexample\file1.c
+
+1622018167 source:d:\codeblocks\staticexample\main.c
+	<stdio.h>
+	<stdlib.h>
+
